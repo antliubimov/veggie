@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
 body {
     font-family: 'Merriweather', serif;
+    /* min-width: 1520px; */
+}
+
+.wrapper {
+    width: 1520px;
+}
+
+
+/******* Header *******/
+
+#header {
+    background-image: url("/images/header/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 1520px;
+    width: 100%;
+    height: auto;
+}
+
+.header__menu {
+    margin: 0;
 }
