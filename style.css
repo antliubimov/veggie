@@ -1,26 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
+:root {
+    --main-font-family: 'Merriweather', serif;
+    --main-color: #3c3c3c;
+}
+
 body {
-    font-family: 'Merriweather', serif;
+    font-family: var(--main-font-family);
+    color: var(--main-color);
     /* min-width: 1520px; */
 }
 
 .wrapper {
     width: 1520px;
+    margin: 0 auto;
 }
 
 
 /******* Header *******/
 
 #header {
+    position: sticky;
     background-image: url("/images/header/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;
     min-width: 1520px;
     width: 100%;
-    height: auto;
+    height: 910px;
+    padding-top: 55px;
 }
 
 .header__menu {
+    box-sizing: border-box;
+    width: 620px;
     margin: 0;
+    margin-left: 960px;
+    margin-bottom: 305px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+.header__menu__item {
+    display: flex;
+    padding: 15px 20px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+.header__menu__item:hover,
+.header__menu__item:active,
+.header__menu__item:focus {
+    border-color: #6e6e6e;
+}
+
+.header__menu__link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.header__title {
+    width: 570px;
+    height: auto;
+    margin-left: 975px;
+    text-align: center;
+}
+
+.header__title h1 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 100;
+}
+
+
+/******* 3 Columns *******/
