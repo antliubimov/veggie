@@ -19,7 +19,6 @@ body {
 /******* Header *******/
 
 #header {
-    position: sticky;
     background-image: url("/images/header/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,3 +75,22 @@ body {
 
 
 /******* 3 Columns *******/
+
+.three-columns {
+    background: url('./images/3columns/columns-bg.png') repeat;
+}
+
+.columns--flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.columns__item {
+    width: 380px;
+    padding: 65px 30px;
+    text-align: center;
+}
+
+.columns__item h3 {
+    text-transform: uppercase;
+}
