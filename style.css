@@ -19,14 +19,12 @@ body {
 /******* Header *******/
 
 #header {
+    background-color: #eeefef;
     background-image: url("./images/header/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%;
-    min-width: 1520px;
-    width: 100%;
-    height: 910px;
     padding-top: 55px;
+    padding-bottom: 370px;
 }
 
 .header__menu {
@@ -155,13 +153,13 @@ body {
 
 .about {
     padding: 210px 0 160px 0;
-    position: relative;
     background-color: #eeefef;
 }
 
 .about__title {
     width: 635px;
     text-align: center;
+    position: relative;
 }
 
 .about__title h2 {
@@ -192,8 +190,8 @@ body {
 
 .about__image {
     position: absolute;
-    top: 40px;
-    right: 5px;
+    top: -190px;
+    left: 700px;
 }
 
 
@@ -201,3 +199,43 @@ body {
 
 
 /******* Contacts *******/
+
+.contact {
+    padding-top: 60px;
+    background-color: #eeefef;
+    background-image: url('./images/contact/contact-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact__wrapper {
+    width: 570px;
+}
+
+.contact__title {
+    text-align: center;
+}
+
+.contact__title h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+}
+
+.contact h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact__form input {
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.contact__form input[type="text"],
+.contact__form input[type="email"] {
+    font-style: italic;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+}
