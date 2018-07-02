@@ -7,7 +7,7 @@
 body {
     font-family: var(--main-font-family);
     color: var(--main-color);
-     min-width: 1900px;
+    min-width: 1900px;
 }
 
 .wrapper {
@@ -102,16 +102,17 @@ body {
     padding-top: 75px;
     padding-bottom: 100px;
 }
+
 .special__title {
     text-align: center;
     margin-bottom: 55px;
-
 }
+
 .special__items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
+
 .special__item {
     display: flex;
     height: 248px;
@@ -128,8 +129,8 @@ body {
     background-color: #f8f8f8;
     text-align: center;
     padding: 25px;
-
 }
+
 .item_desc h4,
 .item_desc b {
     font-size: 18px;
@@ -143,11 +144,57 @@ body {
     width: 88px;
     margin: 0 auto;
 }
+
 .item_desc p {
     font-size: 16px;
     line-height: 18px;
 }
+
+
 /******* About *******/
+
+.about {
+    padding: 210px 0 160px 0;
+    position: relative;
+    background-color: #eeefef;
+}
+
+.about__title {
+    width: 635px;
+    text-align: center;
+}
+
+.about__title h2 {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.about__title p {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.about__sign {
+    float: right;
+}
+
+.clearfix::after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.about__image {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
 
 
 /******* Menu *******/
