@@ -200,7 +200,7 @@ body {
 .about__image {
     position: absolute;
     top: -190px;
-    /* left: 700px; */
+    left: 700px;
 }
 
 
@@ -290,7 +290,7 @@ body {
     color: var(--main-color);
 }
 
-.contact__form input[type="button"] {
+.contact__form input[type="submit"] {
     display: block;
     margin: 0 auto;
     margin-bottom: 190px;
