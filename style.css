@@ -210,10 +210,12 @@ body {
 
 .contact__wrapper {
     width: 570px;
+    float: right;
 }
 
 .contact__title {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .contact__title h2 {
@@ -221,6 +223,12 @@ body {
     font-size: 40px;
     font-weight: 100;
     line-height: 55px;
+}
+
+.contact__address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .contact h4 {
@@ -231,11 +239,56 @@ body {
 .contact__form input {
     font-size: 18px;
     background-color: transparent;
+    padding: 10px 15px;
+    margin-bottom: 50px;
 }
 
 .contact__form input[type="text"],
 .contact__form input[type="email"] {
+    box-sizing: border-box;
+    width: 255px;
     font-style: italic;
     border: none;
     border-bottom: 1px solid var(--main-color);
+}
+
+#name {
+    margin-right: 55px;
+}
+
+#message {
+    width: 100%;
+}
+
+.contact__form input[type="text"]::-webkit-input-placeholder,
+.contact__form input[type="email"]::-webkit-input-placeholder {
+    color: var(--main-color);
+}
+
+.contact__form input[type="button"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    border-style: none;
+    border: 1px solid var(--main-color);
+}
+
+.contact__social {
+    float: right;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.contact__social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid var(--main-color);
+    width: 50px;
+    height: 50px;
+}
+
+.contact__social a:first-child {
+    margin-right: 15px;
 }
