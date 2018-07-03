@@ -23,8 +23,16 @@ body {
     background-image: url("./images/header/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 55px;
+    padding-top: 305px;
     padding-bottom: 370px;
+}
+
+#nav-bar {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    min-width: 100%;
+    background-color: #eeefef;
 }
 
 .header__menu {
@@ -32,7 +40,6 @@ body {
     width: 620px;
     margin: 0;
     margin-left: 960px;
-    margin-bottom: 305px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -197,6 +204,22 @@ body {
 
 /******* Menu *******/
 
+.menu {
+    padding: 80px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 100;
+    margin: 25px 0;
+}
+
+.menu img {
+    margin-bottom: 30px;
+}
+
 
 /******* Contacts *******/
 
@@ -271,6 +294,7 @@ body {
     margin-bottom: 190px;
     border-style: none;
     border: 1px solid var(--main-color);
+    cursor: pointer;
 }
 
 .contact__social {
